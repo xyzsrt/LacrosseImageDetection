@@ -1,0 +1,13 @@
+train: G:\pythonProject\LacrosseVision\LacrosseVision.v7i.yolov8\train\images
+val: G:\pythonProject\LacrosseVision\LacrosseVision.v7i.yolov8\valid\images
+test: ../test/images
+
+nc: 6
+names: ['Ball', 'Goalie', 'Lacroose-Players', 'PlayerWithBall', 'Players', 'Referee']
+
+roboflow:
+  workspace: jm-xzx7t
+  project: lacrossevision
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jm-xzx7t/lacrossevision/dataset/7
